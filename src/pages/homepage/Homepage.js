@@ -9,8 +9,6 @@ const Homepage = () => {
 
   const [theme, setTheme] = useState('light')
 
-  console.log(theme)
-
   return (
     <div>
         <div className='bg' style={{ backgroundImage: `url(${bg})` }} alt='#'>
