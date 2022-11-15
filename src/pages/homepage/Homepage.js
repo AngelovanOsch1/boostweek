@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import bg from '../../img/bg.png'
 import mobileImg from '../../img/mobile.png'
 import swordImg from '../../img/sword.png'
@@ -6,6 +6,11 @@ import gameplayImg from '../../img/gameplay.png'
 import '../homepage/homepage.scss'
 
 const Homepage = () => {
+
+  const [theme, setTheme] = useState('light')
+
+  console.log(theme)
+
   return (
     <div>
         <div className='bg' style={{ backgroundImage: `url(${bg})` }} alt='#'>
