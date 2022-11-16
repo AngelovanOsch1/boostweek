@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/boostweek/static/css/main.236773a0.css",
+    "main.js": "/boostweek/static/js/main.a1f917df.js",
+    "static/media/bg.png": "/boostweek/static/media/bg.fa86a1e46f9436b06fe4.png",
+    "static/media/merch.png": "/boostweek/static/media/merch.662f640491670988f84b.png",
+    "static/media/sword.png": "/boostweek/static/media/sword.e0f06e685770012e5abf.png",
+    "static/media/gameplay.png": "/boostweek/static/media/gameplay.f411c2c02444410fc6d1.png",
+    "static/media/mobile.png": "/boostweek/static/media/mobile.a9678fdf35ffc2f0e7ba.png",
+    "static/media/instagram.png": "/boostweek/static/media/instagram.1e26d691dcf92fd54b1f.png",
+    "static/media/discord.png": "/boostweek/static/media/discord.ef1c627fdc9607efd654.png",
+    "static/media/container.png": "/boostweek/static/media/container.e6461d50125b82c873f2.png",
+    "static/media/logo.png": "/boostweek/static/media/logo.a148f7cd525708076a61.png",
+    "static/media/twitter.png": "/boostweek/static/media/twitter.5c376d0ffe19d174fb96.png",
+    "static/media/youtube.png": "/boostweek/static/media/youtube.641072cf09a4a8753f67.png",
+    "index.html": "/boostweek/index.html",
+    "main.236773a0.css.map": "/boostweek/static/css/main.236773a0.css.map",
+    "main.a1f917df.js.map": "/boostweek/static/js/main.a1f917df.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.236773a0.css",
+    "static/js/main.a1f917df.js"
+  ]
+}
