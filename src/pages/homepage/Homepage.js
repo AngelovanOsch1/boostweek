@@ -3,11 +3,12 @@ import bg from '../../img/bg.png'
 import mobileImg from '../../img/mobile.png'
 import swordImg from '../../img/sword.png'
 import gameplayImg from '../../img/gameplay.png'
+import containerImg from '../../img/container.png'
+import merchImg from '../../img/merch.png'
+import secondMerchImg from '../../img/secondmerch.png'
 import '../homepage/homepage.scss'
 
 const Homepage = () => {
-
-  const [theme, setTheme] = useState('light')
 
   return (
     <div>
@@ -21,7 +22,7 @@ const Homepage = () => {
               <img className='bg__logo' src={swordImg}></img>
                 <h1>BattleFit GO</h1>
                 <h3>New augment reality game</h3>
-                <h5>Get fitter today!</h5>
+                <p>Get fitter today!</p>
               </div>
               <div className='bg__download'>
               <h4>Free on the playstore and appstore</h4>
@@ -37,12 +38,32 @@ const Homepage = () => {
               <h3 className='gameplay-text-h3'>This is not any normal game, it is meant to be fun while also getting fit. you can get some awesome rewards like merch!</h3>
             </div>
             <div className='gameplay-field'>
-              <h4 className='gameplay-text-h4'><span>Genre:</span>RPG/Fitness</h4>
-              <h4 className='gameplay-text-h4'><span>Type:</span>Mobile game</h4>
+              <h4 className='gameplay-text-h4'><span className='detail'>Genre:</span>RPG/Fitness</h4>
+              <h4 className='gameplay-text-h4'><span className='detail'>Type:</span>Mobile game</h4>
             </div>
           </div>
           <div className='gameplay-container-right'>
             <img className='gameplay-image' src={gameplayImg}></img>
+          </div>
+        </div>
+        <div className='container-img' style={{ backgroundImage: `url(${containerImg})` }} alt='#'>
+          <div className='container-img-leftside'>
+          <img className='merch-image' src={merchImg}></img>
+          </div>
+          <div className='container-img-rightside'>
+            <div className='center-container'>
+              <div className='field-one'>
+              <h2 className='container-img-title'>Buy merch to support the game</h2>
+              <p>Made with 100% cotton</p>
+              </div>
+              <div className='field-two'>
+                <h3>Get merch for FREE! just by playing the game</h3>
+                <img src={secondMerchImg}></img>
+              </div>
+              <div className='field-three'>
+                <h3>People that reach the rank of <span className='legend'>legend</span> will get a <span className='free'>free</span> T-shirt with their character on it</h3>
+              </div>
+            </div>
           </div>
         </div>
     </div>

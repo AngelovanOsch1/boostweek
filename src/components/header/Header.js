@@ -1,6 +1,8 @@
 import React from 'react'
 import '../header/header.scss'
 import logo from '../../img/logo.png'
+import ReactSwitch from 'react-switch'
+
 
 const Header = () => {
   return (

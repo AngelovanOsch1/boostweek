@@ -1,5 +1,31 @@
 @import '../../css-helper/prefix.scss';
 
+#light .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6em;
+    width: 100%;
+    padding: 2em;
+    background-color: #fff;
+}
+
+#dark .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 6em;
+    width: 100%;
+    padding: 2em;
+    background-color: #585858;
+}
+
+.switch {
+    position: absolute;
+    top: 35px;
+    right: 50px;
+  }
+
 .header {
     display: flex;
     align-items: center;

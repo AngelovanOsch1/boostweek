@@ -1,14 +1,6 @@
 @import '../../css-helper/prefix.scss';
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-#light {
-    background-color: #fff;
-}
-
-#dark {
-    background-color: #000;
-}
-
 h1, h3, h4, h5 {
     color: #fff;
     font-weight: 400;
@@ -67,6 +59,11 @@ h1, h3, h4, h5 {
                 h5 {
                     margin-top: 2em;
                 }
+
+                p {
+                    color: #fff;
+                    margin-top: 0.5em;
+                }
             }
 
             .bg__download {
@@ -87,6 +84,48 @@ h1, h3, h4, h5 {
         }
     }
 }
+
+#light .gameplay-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3em;
+    width: 100%;
+    height: 25em;
+    background-color: #fff;
+}
+
+#dark .gameplay-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3em;
+    width: 100%;
+    height: 25em;
+    background-color: #585858;
+
+}
+
+#light .gameplay-text-h3 {
+    font-size: 1rem;
+    width: 50%;
+    color: #656565;
+}
+
+#dark .gameplay-text-h3 {
+    font-size: 1rem;
+    width: 50%;
+    color: #fff;
+}
+
+#light .detail {
+    color: #656565;
+}
+
+#dark .detail {
+    color: #fff;
+}
+
 
 .gameplay-container {
     display: flex;
@@ -146,6 +185,88 @@ h1, h3, h4, h5 {
             min-width: 70%;
             border-radius: 12px;
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        }
+    }
+}
+
+.container-img {
+    display: flex;
+    width: 100%;
+    height: 25em;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .container-img-leftside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 100%;
+
+        .merch-image {
+            width: 400px;
+            height: 400px;
+        }
+    }
+
+    .container-img-rightside {
+        display: flex;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
+
+        .center-container {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 50%;
+            height: 100%;
+
+            .field-one {
+                
+                h2 {
+                    color: #B6D3F7;
+                    margin-bottom: 0.8em;
+                }
+
+                h5 {
+                    color: #A3A6AA;
+                }
+
+                p {
+                    color: #fff;
+                }
+            }
+
+            .field-two {
+
+                h3 {
+                    color: #12D43C;
+                    margin-bottom: 0.8em;
+                }
+
+                img {
+                    height: 100px;
+                    width: 150px;
+                }
+            }
+            
+            .field-three {
+                
+                h3 {        
+                    color: #E5E6E8;
+
+                    .legend {
+                        color: #735D88; 
+                    }
+
+                    .free {
+                        color: #12D43C;
+                    }
+                }
+            }
         }
     }
 

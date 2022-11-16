@@ -1,9 +1,10 @@
 import { createContext, useState } from 'react';
 import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
 import Homepage from './pages/homepage/Homepage';
 import ReactSwitch from 'react-switch'
 import './css-helper/prefix.scss'
-import './pages/homepage/homepage.scss'
+import './components/header/header.scss'
 
 export const ThemeContext = createContext(null)
 
@@ -20,7 +21,10 @@ function App() {
     <div  id={theme}>
       <Header />
       <Homepage />
-      <ReactSwitch onChange={toggleTheme} checked={theme === 'dark'}/>
+      <Footer />
+      <div className='switch'>
+        <ReactSwitch className='toggle' onChange={toggleTheme} checked={theme === 'dark'}/>
+      </div>
     </div>
     </ThemeContext.Provider>
   );
