@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/boostweek/static/css/main.250d14b0.css",
-    "main.js": "/boostweek/static/js/main.a283c71c.js",
+    "main.js": "/boostweek/static/js/main.4502e821.js",
     "static/media/bg.png": "/boostweek/static/media/bg.fa86a1e46f9436b06fe4.png",
     "static/media/merch.png": "/boostweek/static/media/merch.662f640491670988f84b.png",
     "static/media/sword.png": "/boostweek/static/media/sword.e0f06e685770012e5abf.png",
@@ -15,10 +15,10 @@
     "static/media/youtube.png": "/boostweek/static/media/youtube.641072cf09a4a8753f67.png",
     "index.html": "/boostweek/index.html",
     "main.250d14b0.css.map": "/boostweek/static/css/main.250d14b0.css.map",
-    "main.a283c71c.js.map": "/boostweek/static/js/main.a283c71c.js.map"
+    "main.4502e821.js.map": "/boostweek/static/js/main.4502e821.js.map"
   },
   "entrypoints": [
     "static/css/main.250d14b0.css",
-    "static/js/main.a283c71c.js"
+    "static/js/main.4502e821.js"
   ]
 }
