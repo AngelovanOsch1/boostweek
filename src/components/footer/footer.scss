@@ -1,0 +1,137 @@
+#light footer {
+    height: 35vh;
+    width: 100%;
+    background-color: #D6E5F9;
+}
+
+#dark footer {
+    height: 35vh;
+    width: 100%;
+    background-color: #585858;
+}
+
+#light .bottom-layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    padding: 0.8em;
+    color: #282A2E;
+}
+
+#dark .bottom-layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+    padding: 0.8em;
+    color: #fff;
+}
+
+#light h5 {
+    color: #282A2E;
+    font-weight: bold;
+}
+
+#dark h5 {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+footer {
+    height: 35vh;
+    width: 100%;
+    background-color: #D6E5F9;
+
+    .top-layer {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 60%;
+        width: 100%;
+
+        .footer-field-one {
+            display: flex;
+            width: 20%;
+            height: 60%;
+
+            .column-one {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                height: 100%;
+                width: 33.3%;
+
+                h5 {
+                    color: #282A2E;
+                    font-weight: bold;
+                }
+            }
+
+            .column-two {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                height: 100%;
+                width: 33.3%;
+
+                h5 {
+                    color: #282A2E;
+                    font-weight: bold;
+                }
+            }
+
+            .column-three {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                height: 100%;
+                width: 33.3%;
+
+                h5 {
+                    color: #282A2E;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .footer-field-two {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            width: 40%;
+            height: 50%;
+
+            .circle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50%;
+                width: 40px;
+                background-color: #fff;
+                border-radius: 50%;
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+        }
+    }
+
+    .bottom-layer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 40%;
+        width: 100%;
+        padding: 0.8em;
+    }
+}
