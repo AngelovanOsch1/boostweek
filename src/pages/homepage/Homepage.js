@@ -3,7 +3,7 @@ import bg from '../../img/bg.png'
 import mobileImg from '../../img/mobile.png'
 import swordImg from '../../img/sword.png'
 import gameplayImg from '../../img/gameplay.png'
-import containerImg from '../../img/container.png'
+import containerImg from '../../img/container2.png'
 import merchImg from '../../img/merch.png'
 import secondMerchImg from '../../img/secondmerch.png'
 import '../homepage/homepage.scss'
@@ -38,8 +38,8 @@ const Homepage = () => {
               <h3 className='gameplay-text-h3'>This is not any normal game, it is meant to be fun while also getting fit. you can get some awesome rewards like merch!</h3>
             </div>
             <div className='gameplay-field'>
-              <h4 className='gameplay-text-h4'><span className='detail'>Genre:</span>RPG/Fitness</h4>
-              <h4 className='gameplay-text-h4'><span className='detail'>Type:</span>Mobile game</h4>
+              <h4 className='gameplay-text-h4'><span className='detail'>Genre: </span>RPG/Fitness</h4>
+              <h4 className='gameplay-text-h4'><span className='detail'>Type: </span>Mobile game</h4>
             </div>
           </div>
           <div className='gameplay-container-right'>
