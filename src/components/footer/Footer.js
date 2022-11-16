@@ -28,19 +28,19 @@ const Footer = () => {
             </div>
             <div className='footer-field-two'>
                 <div className='circle'>
-                    <img src={twitterLogo} />
+                    <img src={twitterLogo} alt="twiiterlogo" />
                 </div>
                 <div className='circle'>
-                    <img src={youtubeLogo} />
+                    <img src={youtubeLogo} alt="youtubelogo" />
                 </div>
                 <div className='circle'>
-                    <img src={instagramLogo} />
+                    <img src={instagramLogo} alt="instagramlogo" />
                 </div>
                 <div className='circle'>
-                    <img src={discordLogo} />
+                    <img src={discordLogo} alt="discordlogo" />
                 </div>
                 <div className='circle'>
-                    <img src={twitchLogo} />
+                    <img src={twitchLogo} alt="twitchlogo" />
                 </div>
             </div>
             <img src={footerLogo} />
