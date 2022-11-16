@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/boostweek/static/css/main.236773a0.css",
+    "main.css": "/boostweek/static/css/main.250d14b0.css",
     "main.js": "/boostweek/static/js/main.a1f917df.js",
     "static/media/bg.png": "/boostweek/static/media/bg.fa86a1e46f9436b06fe4.png",
     "static/media/merch.png": "/boostweek/static/media/merch.662f640491670988f84b.png",
@@ -14,11 +14,11 @@
     "static/media/twitter.png": "/boostweek/static/media/twitter.5c376d0ffe19d174fb96.png",
     "static/media/youtube.png": "/boostweek/static/media/youtube.641072cf09a4a8753f67.png",
     "index.html": "/boostweek/index.html",
-    "main.236773a0.css.map": "/boostweek/static/css/main.236773a0.css.map",
+    "main.250d14b0.css.map": "/boostweek/static/css/main.250d14b0.css.map",
     "main.a1f917df.js.map": "/boostweek/static/js/main.a1f917df.js.map"
   },
   "entrypoints": [
-    "static/css/main.236773a0.css",
+    "static/css/main.250d14b0.css",
     "static/js/main.a1f917df.js"
   ]
 }
