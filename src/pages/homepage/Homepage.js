@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import bg from '../../img/bg.png'
 import mobileImg from '../../img/mobile.png'
 import swordImg from '../../img/sword.png'
@@ -14,12 +14,12 @@ const Homepage = () => {
     <div>
         <div className='bg' style={{ backgroundImage: `url(${bg})` }} alt='#'>
           <div className='bg__leftside'>
-            <img className='leftside__image' src={mobileImg}></img>
+            <img className='leftside__image' src={mobileImg} alt='mobileimg'></img>
           </div>
           <div className='bg__rightside'>
             <div className='bg__container'>
               <div className='bg__title'>
-              <img className='bg__logo' src={swordImg}></img>
+              <img className='bg__logo' src={swordImg} alt='swordimage' ></img>
                 <h1>BattleFit GO</h1>
                 <h3>New augment reality game</h3>
                 <p>Get fitter today!</p>
@@ -43,7 +43,7 @@ const Homepage = () => {
             </div>
           </div>
           <div className='gameplay-container-right'>
-            <img className='gameplay-image' src={gameplayImg}></img>
+            <img className='gameplay-image' src={gameplayImg} alt='gameplayimg '></img>
           </div>
         </div>
         <div className='container-img' style={{ backgroundImage: `url(${containerImg})` }} alt='#'>

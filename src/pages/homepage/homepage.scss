@@ -80,6 +80,11 @@ h1, h3, h4, h5 {
                     border: none;
                     border-radius: 12px;
                     margin-top: 0.8em;
+
+                    &:hover {
+                        cursor: pointer;
+                        background-color: rgb(191, 183, 183);
+                    }        
                 }
             }
         }
