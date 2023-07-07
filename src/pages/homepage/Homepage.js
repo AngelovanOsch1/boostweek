@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import bg from '../../img/bg.png'
 import mobileImg from '../../img/mobile.png'
 import swordImg from '../../img/sword.png'
 import gameplayImg from '../../img/gameplay.png'
-import containerImg from '../../img/container.png'
+import containerImg from '../../img/container2.png'
 import merchImg from '../../img/merch.png'
 import secondMerchImg from '../../img/secondmerch.png'
 import '../homepage/homepage.scss'
@@ -14,12 +14,12 @@ const Homepage = () => {
     <div>
         <div className='bg' style={{ backgroundImage: `url(${bg})` }} alt='#'>
           <div className='bg__leftside'>
-            <img className='leftside__image' src={mobileImg}></img>
+            <img className='leftside__image' src={mobileImg} alt='mobileimg'></img>
           </div>
           <div className='bg__rightside'>
             <div className='bg__container'>
               <div className='bg__title'>
-              <img className='bg__logo' src={swordImg}></img>
+              <img className='bg__logo' src={swordImg} alt='swordimage' ></img>
                 <h1>BattleFit GO</h1>
                 <h3>New augment reality game</h3>
                 <p>Get fitter today!</p>
@@ -38,12 +38,12 @@ const Homepage = () => {
               <h3 className='gameplay-text-h3'>This is not any normal game, it is meant to be fun while also getting fit. you can get some awesome rewards like merch!</h3>
             </div>
             <div className='gameplay-field'>
-              <h4 className='gameplay-text-h4'><span className='detail'>Genre:</span>RPG/Fitness</h4>
-              <h4 className='gameplay-text-h4'><span className='detail'>Type:</span>Mobile game</h4>
+              <h4 className='gameplay-text-h4'><span className='detail'>Genre: </span>RPG/Fitness</h4>
+              <h4 className='gameplay-text-h4'><span className='detail'>Type: </span>Mobile game</h4>
             </div>
           </div>
           <div className='gameplay-container-right'>
-            <img className='gameplay-image' src={gameplayImg}></img>
+            <img className='gameplay-image' src={gameplayImg} alt='gameplayimg '></img>
           </div>
         </div>
         <div className='container-img' style={{ backgroundImage: `url(${containerImg})` }} alt='#'>

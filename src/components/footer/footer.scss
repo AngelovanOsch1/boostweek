@@ -71,6 +71,11 @@ footer {
                 h5 {
                     color: #282A2E;
                     font-weight: bold;
+
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
                 }
             }
 
@@ -84,6 +89,11 @@ footer {
                 h5 {
                     color: #282A2E;
                     font-weight: bold;
+
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
                 }
             }
 
@@ -97,6 +107,11 @@ footer {
                 h5 {
                     color: #282A2E;
                     font-weight: bold;
+
+                    &:hover {
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
                 }
             }
         }
@@ -113,13 +128,19 @@ footer {
                 justify-content: center;
                 align-items: center;
                 height: 50%;
-                width: 40px;
+                width: 8%;
                 background-color: #fff;
                 border-radius: 50%;
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgb(215, 210, 210);
+                }
 
                 img {
                     width: 25px;
                     height: 25px;
+
                 }
             }
         }
